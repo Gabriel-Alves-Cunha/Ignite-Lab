@@ -31,8 +31,6 @@ export function Video({ slug }: Props) {
 		},
 	});
 
-	console.log(data);
-
 	if (!data)
 		return (
 			<div className="flex-1">
