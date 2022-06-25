@@ -1,5 +1,3 @@
-import type { LessonType } from "./Sidebar";
-
 import { CheckCircle, Lock } from "phosphor-react";
 import { Link, useParams } from "react-router-dom";
 import { isPast, format } from "date-fns";
@@ -78,8 +76,8 @@ export function Lesson({ availableAt, slug, title, type }: Props) {
 }
 
 type Props = {
+	type: "live" | "class";
 	availableAt: Date;
-	type: LessonType;
 	title: string;
 	slug: string;
 };
