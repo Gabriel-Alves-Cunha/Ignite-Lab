@@ -39,7 +39,7 @@ export function Subscribe() {
 					<h1 className="mt-8 text-[2.5rem] leading-tight">
 						Construa uma{" "}
 						<strong className="text-blue-500">aplicação completa</strong>, do
-						xero, com
+						zero, com
 						<strong className="text-blue-500"> React</strong>
 					</h1>
 
